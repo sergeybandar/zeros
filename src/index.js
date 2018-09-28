@@ -2,8 +2,8 @@ module.exports = function getZerosCount(number) {
   // your implementation
   
   var a5=0;
-  var i=1;
-  for(i; i<number+1; i++)
+  var i=5;
+  for(i; i<number+1; i=i+5)
   {var n=i;
 	if(n%5==0)
 	{

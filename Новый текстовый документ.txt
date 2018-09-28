@@ -1,0 +1,42 @@
+
+  var a2=0, a5=0, a10=0;
+  for(var i=1; i<number+1;i++)
+  {var n=i;
+	 while(0<i)
+	{
+	 if(n%10==0){
+		n=n/10;
+		a10++;}
+		else
+		break;
+	}
+	if(n%2==0)
+	{
+		while(0<i)
+		{
+			if(n%2==0){
+			n=n/2;
+			a2++;}
+			else
+			break;
+		}
+	}
+	if(n%5==0)
+	{
+		while(0<i)
+		{
+			if(n%5==0){
+			n=n/5;
+			a5++;}
+			else
+			break;
+		}
+	}
+var t;
+if(a2>a5)
+t=a5;
+else
+t=a2;
+  }
+  return a10+t;
+}
